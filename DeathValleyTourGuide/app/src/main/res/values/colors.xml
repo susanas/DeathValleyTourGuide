@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#78909c</color>
+    <color name="colorPrimary">#f57c00</color>
+    <color name="colorAccent">#78909c</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the sites category -->
+    <color name="category_sites">#a1887f</color>
+
+    <!-- Background color for the hikes category -->
+    <color name="category_hikes">#9575cd</color>
+
+    <!-- Background color for the campgrounds category -->
+    <color name="category_campgrounds">#a1887f</color>
+
+    <!-- Background color for the services category -->
+    <color name="category_services">#9575cd</color>
+
+</resources>
