@@ -27,47 +27,26 @@ public class CampgroundsFragment extends Fragment {
 
         // Create a list of info (objects)
         final ArrayList<InfoObject> campsites = new ArrayList<InfoObject>();
-        campsites.add(new InfoObject("Furnace Creek Campground",
-                "- Reservations recommended: mid-Oct to mid-Apr.",
-                "- Reservations must be made 4 days ahead and up to " +
-                        "6 months in advance",
-                "- No Reservations needed: mid-Apr to mid-Oct",
-                "- #/Campsites: 150",
-                "- Open: All Year",
-                "- Elevation: 196 feet below sea level",
-                "- Fee per night: $22-36"));
-        campsites.add(new InfoObject("Sunset Campground",
-                "- No Reservations needed.",
-                "- #/Campsites: 270",
-                "- Open: mid-Oct to mid-Apr",
-                "- Elevation: 196 feet below sea level",
-                "- Flush toilets & water",
-                "- Fire pits and tables",
-                "Fee per night: $14"));
-        campsites.add(new InfoObject("Texas Springs Campground",
-                "- No Reservations needed.",
-                "- #/Campsites: 92",
-                "- Open: mid-Oct to mid-May",
-                "- Elevation: sea level",
-                "- Flush toilets & water",
-                "- Fire pits and tables",
-                "- Fee per night: $16"));
-        campsites.add(new InfoObject("Stove Pipe Wells Campground",
-                "- No Reservations needed.",
-                "- #/Campsites: 190",
-                "- Open: mid-Sep to mid-May",
-                "- Elevation: sea level",
-                "- Flush toilets & water",
-                "- Fire pits and tables",
-                "- Fee per night: $14"));
-        campsites.add(new InfoObject("Mesquite Spring Campground",
-                "- No Reservations needed.",
-                "- #/Campsites: 40",
-                "- Open: All Year",
-                "- Elevation: 1,800 feet above sea level",
-                "- Flush toilets & water",
-                "- Fire pits and tables",
-                "- Fee per night: $14"));
+        campsites.add(new InfoObject(getString(R.string.campground1a), getString(R.string.campground1b),
+                getString(R.string.campground1c), getString(R.string.campground1d),
+                getString(R.string.campground1e), getString(R.string.campground1f),
+                getString(R.string.campground1g), getString(R.string.campground1h)));
+        campsites.add(new InfoObject(getString(R.string.campground2a), getString(R.string.campground2b),
+                getString(R.string.campground2c), getString(R.string.campground2d),
+                getString(R.string.campground2e), getString(R.string.campground2f),
+                getString(R.string.campground2g), getString(R.string.campground2h)));
+        campsites.add(new InfoObject(getString(R.string.campground3a), getString(R.string.campground2b),
+                getString(R.string.campground3c), getString(R.string.campground3d),
+                getString(R.string.campground3e), getString(R.string.campground2f),
+                getString(R.string.campground2g), getString(R.string.campground3h)));
+        campsites.add(new InfoObject(getString(R.string.campground4a), getString(R.string.campground2b),
+                getString(R.string.campground4c), getString(R.string.campground4d),
+                getString(R.string.campground3e), getString(R.string.campground2f),
+                getString(R.string.campground2g), getString(R.string.campground2h)));
+        campsites.add(new InfoObject(getString(R.string.campground5a), getString(R.string.campground2b),
+                getString(R.string.campground5c), getString(R.string.campground1f),
+                getString(R.string.campground5e), getString(R.string.campground2f),
+                getString(R.string.campground2g), getString(R.string.campground2h)));
 
         // Create an {@link InfoAdapter}, whose data source is a list of {@link Info Object}s. The
         // adapter knows how to create list items for each item in the list.

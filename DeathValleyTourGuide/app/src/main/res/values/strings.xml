@@ -2,16 +2,137 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Death Valley Tour Guide</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <!-- Category name for site info[CHAR LIMIT=20] -->
     <string name="category_sites">Sites</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="site1a">Badwater Basin</string>
+    <string name="site1b">- The lowest dry point in North America, at 282 ft below sea level.
+        A surreal landscape of vast salt flats.</string>
+    <string name="site1c">- Walking Required? Optional. 2 miles, roundtrip to reach the salt
+        flats.</string>
+    <string name="site1d">- Distance from Furnace Creek: 17 mi</string>
+    <string name="site1e">- Elevation: 282 feet below sea level</string>
+
+    <string name="site2a">Artists Drive</string>
+    <string name="site2b">- A scenic loop drive through multi-hued hills.  The 9 mile drive is
+        on a one-way road.</string>
+    <string name="site2c">- Walking Required?  Optional.  Short walk at Artists Palette to get a
+        closer look.</string>
+    <string name="site2d">- Distance from Furnace Creek: 8.5 mi</string>
+
+    <string name="site3a">Dantes View</string>
+    <string name="site3b">- Breathtaking viewpoint over 5,000 ft above Death Valley.</string>
+    <string name="site3c">- Walking Required?  No.</string>
+    <string name="site3d">- Distance from Furnace Creek: 25 mi</string>
+    <string name="site3e">- Elevation: 5,500 feet above sea level</string>
+
+    <string name="site4a">Mesquite Flat Sand Dunes</string>
+    <string name="site4b">- Tawny dunes as high as 100 ft.</string>
+    <string name="site4c">- Walking Required?  Optional. 1-2 miles roundtrip depending how many
+        sand dunes you want to explore.</string>
+    <string name="site4d">- Distance from Furnace Creek: 22 mi</string>
+    <string name="site4e">- Elevation: 170 feet above sea level</string>
+
+    <string name="site5a">Zabriskie Point</string>
+    <string name="site5b">- Golden colors of hills and mountains nearby.  Great spot for
+        sunrise.</string>
+    <string name="site5c">- Walking Required?  0.5 mile, roundtrip on paved road.</string>
+    <string name="site5d">- Distance from Furnace Creek: 5 mi</string>
+    <string name="site5e">- Elevation: 713 feet above sea level</string>
+
+    <!-- Category name for hike info [CHAR LIMIT=20] -->
     <string name="category_hikes">Hikes</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="hike1a">Mesquite Flat Sand Dunes</string>
+    <string name="hike1b">- Hike through the largest dune field in the park to summit the high
+        dune in the distance.</string>
+    <string name="hike1c">- Easy hike.  2 mile, roundtrip on paved road.</string>
+    <string name="hike1d">- Distance from Furnace Creek: 21 mi</string>
+    <string name="hike1e">- Elevation Gain: 185 feet</string>
+    <string name="hike1f">- Open: 24 hours, no camping</string>
+    <string name="hike1g">- Fee: Included w/Park entrance pass</string>
+    <string name="hike1h">- Phone number: (760) 786-3200</string>
+
+    <string name="hike2a">Golden Canyon</string>
+    <string name="hike2b">- Colorful canyons carved through golden hills.</string>
+    <string name="hike2c">- Moderate hike.  2.7 mile, roundtrip on paved road.</string>
+    <string name="hike2d">- Distance from Furnace Creek: 5 mi</string>
+    <string name="hike2e">- Elevation Gain: 535 feet</string>
+
+    <string name="hike3a">Natural Bridge</string>
+    <string name="hike3b">- Hike up dramatic canyon to a natural bridge formation.</string>
+    <string name="hike3c">- Easy hike.  1 mile, roundtrip.</string>
+    <string name="hike3d">- Distance from Furnace Creek: 11 mi</string>
+    <string name="hike3e">- Elevation Gain: 180 feet</string>
+
+    <string name="hike4a">Badwater Salt Flats</string>
+    <string name="hike4b">- Scenic walk to the edge of the salt marsh and lowest point in North America.</string>
+    <string name="hike4d">- Distance from Furnace Creek: 17 mi</string>
+    <string name="hike4e">- Elevation Gain: flat</string>
+
+    <string name="hike5a">Salt Creek InterpretiveTrail</string>
+    <string name="hike5b">- Wooden boardwalk through salt marsh and rare pupfish habitat.
+        Pupfish can usually be seen in the spring.</string>
+    <string name="hike5c">- Easy hike.  0.5 mile, roundtrip.</string>-->
+    <string name="hike5d">- Distance from Furnace Creek: 12 mi</string>
+
+    <!-- Category name for campground info [CHAR LIMIT=20] -->
     <string name="category_campgrounds">Camp Grounds</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="campground1a">Furnace Creek Campground</string>
+    <string name="campground1b">- Reservations recommended: mid-Oct to mid-Apr.</string>
+    <string name="campground1c">- Reservations must be made 4 days ahead and up to 6 months in advance</string>
+    <string name="campground1d">- No Reservations needed: mid-Apr to mid-Oct</string>
+    <string name="campground1e">- #/Campsites: 150</string>
+    <string name="campground1f">- Open: All Year</string>
+    <string name="campground1g">- Elevation: 196 feet below sea level</string>
+    <string name="campground1h">- Fee per night: $22-36</string>
+
+    <string name="campground2a">Sunset Campground</string>
+    <string name="campground2b">- No Reservations needed.</string>
+    <string name="campground2c">- #/Campsites: 270</string>
+    <string name="campground2d">- Open: mid-Oct to mid-Apr</string>
+    <string name="campground2e">- Elevation: 196 feet below sea level</string>
+    <string name="campground2f">- Flush toilets and water</string>
+    <string name="campground2g">- Fire pits and tables</string>
+    <string name="campground2h">- Fee per night: $14</string>
+
+    <string name="campground3a">Texas Springs Campground</string>
+    <string name="campground3c">- #/Campsites: 92</string>
+    <string name="campground3d">- Open: mid-Oct to mid-May</string>
+    <string name="campground3e">- Elevation: sea level</string>
+    <string name="campground3h">- Fee per night: $16</string>
+
+    <string name="campground4a">Stove Pipe Wells Campground</string>
+    <string name="campground4c">- #/Campsites: 190</string>
+    <string name="campground4d">- Open: mid-Sep to mid-May</string>
+
+    <string name="campground5a">Mesquite Spring Campground</string>
+    <string name="campground5c">- #/Campsites: 40</string>
+    <string name="campground5e">- Elevation: 1,800 feet above sea level</string>
+
+    <!-- Category name for services info [CHAR LIMIT=20] -->
     <string name="category_services">Services</string>
+
+    <string name="service1a">National Park Service Visitor Center</string>
+    <string name="service1b">- Open daily, 8am-5pm</string>
+    <string name="service1c">- Phone number: (760) 786-3200</string>
+    <string name="service1d">- Location: Furnace Creek</string>
+
+    <string name="service2a">Indian Tacos and Shaved Ice</string>
+    <string name="service2b">- Open Tuesday - Saturday, 10am-6pm</string>
+    <string name="service2c">- Phone number: (760) 258-2345</string>
+
+    <string name="service3a">The Inn at Death Valley Restaurant</string>
+    <string name="service3b">- Open daily, call for times</string>
+
+    <string name="service4a">Jeep Rentals and Tours</string>
+    <string name="service4c">- Phone number: (760) 786-9872</string>
+
+    <string name="service5a">Post Office</string>
+    <string name="service5b">- Open: Monday - Friday, 8am-4pm
+        Lobby open 24 hours</string>
+    <string name="service5c">Closed daily, 1pm-1:30pm</string>
+
 
 </resources>

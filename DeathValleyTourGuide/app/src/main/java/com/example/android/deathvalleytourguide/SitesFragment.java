@@ -26,52 +26,26 @@ public class SitesFragment extends Fragment {
 
         // Create a list of Info (objects)
         final ArrayList<InfoObject> sites = new ArrayList<InfoObject>();
-        sites.add(new InfoObject("Badwater Basin",
-                "- The lowest dry point in North America, at 282 ft below sea level.  " +
-                        "A surreal landscape of vast salt flats.",
-                "- Walking Required? Optional. 2 miles, " +
-                        "roundtrip to reach the salt flats.",
-                "- Distance from Furnace Creek: 17 mi",
-                "- Elevation: 282 feet below sea level",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200", R.drawable.saltflats));
-        sites.add(new InfoObject("Artists Drive",
-                "- A scenic loop drive through multi-hued hills.  " +
-                        "The 9 mile drive is on a one-way road.",
-                "- Walking Required?  Optional.  " +
-                        "Short walk at Artists Palette to get a closer look.",
-                "- Distance from Furnace Creek: 8.5 mi",
-                "- Elevation: sea level",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200", R.drawable.artist));
-        sites.add(new InfoObject("Dantes View",
-                "- Breathtaking viewpoint over 5,000 ft above Death Valley.",
-                "- Walking Required?  No.",
-                "- Distance from Furnace Creek: 25 mi",
-                "- Elevation: 5,500 feet above sea level",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200", R.drawable.dante));
-        sites.add(new InfoObject("Mesquite Flat Sand Dunes ",
-                "- Tawny dunes as high as 100 ft",
-                "- Walking Required?  Optional. 1-2 miles, " +
-                        "roundtrip depending how many sand dunes you want to explore.",
-                "- Distance from Furnace Creek: 22 mi",
-                "- Elevation: 170 above sea level",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200", R.drawable.sanddunes));
-        sites.add(new InfoObject("Zabriskie Point",
-                "- Golden colors of hills and mountains nearby.  " +
-                        "Great spot for sunrise.",
-                "- Walking Required?  0.5 mile, roundtrip on paved road.",
-                "- Distance from Furnace Creek: 0.5 mi",
-                "- Elevation: 713 feet above sea level",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200", R.drawable.zabriskie));
+        sites.add(new InfoObject(getString(R.string.site1a), getString(R.string.site1b),
+                getString(R.string.site1c), getString(R.string.site1d),
+                getString(R.string.site1e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h), R.drawable.saltflats));
+        sites.add(new InfoObject(getString(R.string.site2a), getString(R.string.site2b),
+                getString(R.string.site2c), getString(R.string.site2d),
+                getString(R.string.campground3e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h), R.drawable.artist));
+        sites.add(new InfoObject(getString(R.string.site3a), getString(R.string.site3b),
+                getString(R.string.site3c), getString(R.string.site3d),
+                getString(R.string.site3e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h), R.drawable.dante));
+        sites.add(new InfoObject(getString(R.string.site4a), getString(R.string.site4b),
+                getString(R.string.site4c), getString(R.string.site4d),
+                getString(R.string.site4e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h), R.drawable.sanddunes));
+        sites.add(new InfoObject(getString(R.string.site5a), getString(R.string.site5b),
+                getString(R.string.site5c), getString(R.string.site5d),
+                getString(R.string.site5e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h), R.drawable.zabriskie));
 
         // Create an {@link InfoAdapter}, whose data source is a list of {@link Info Object}s. The
         // adapter knows how to create list items for each item in the list.

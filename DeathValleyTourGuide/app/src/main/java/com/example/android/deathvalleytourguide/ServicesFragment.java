@@ -27,46 +27,26 @@ public class ServicesFragment extends Fragment {
 
         // Create a list of Info (objects)
         final ArrayList<InfoObject> services = new ArrayList<InfoObject>();
-        services.add(new InfoObject("National Park Service Visitor Center",
-                "",
-                "- Open daily, 8am-5pm",
-                "",
-                "- Phone number: (760) 786-3200",
-                "",
-                "- Location: Furnace Creek",
-                ""));
-        services.add(new InfoObject("Indian Tacos & Shaved Ice",
-                "",
-                "- Open Tuesday - Saturday, 10am-6pm",
-                "",
-                "- Phone number: (760) 258-2345",
-                "",
-                "- Location: Furnace Creek, Timbisha Shoshone Village",
-                ""));
-        services.add(new InfoObject("The Inn at Death Valley Restaurant",
-                "",
-                "- Open daily, call for times",
-                "",
-                "- Phone number: (760) 786-2345",
-                "",
-                "- Location: Furnace Creek",
-                ""));
-        services.add(new InfoObject("Jeep Rentals & Tours",
-                "",
-                "- Open daily, call for times",
-                "",
-                "- Phone number: (760) 786-9872",
-                "",
-                "- Location: Furnace Creek",
-                ""));
-        services.add(new InfoObject("Post Office",
-                "",
-                "- Open: Monday - Friday, 8am-4pm\n" + "   Lobby open 24 hours",
-                "",
-                "- Closed daily, 1pm-1:30pm",
-                "",
-                "- Location: Furnace Creek",
-                ""));
+        services.add(new InfoObject(getString(R.string.service1a), "",
+                getString(R.string.service1b), "",
+                getString(R.string.service1c), "",
+                getString(R.string.service1d), ""));
+        services.add(new InfoObject(getString(R.string.service2a), "",
+                getString(R.string.service2b), "",
+                getString(R.string.service2c), "",
+                getString(R.string.service1d), ""));
+        services.add(new InfoObject(getString(R.string.service3a), "",
+                getString(R.string.service3b), "",
+                getString(R.string.service2c), "",
+                getString(R.string.service1d), ""));
+        services.add(new InfoObject(getString(R.string.service4a), "",
+                getString(R.string.service3b), "",
+                getString(R.string.service4c), "",
+                getString(R.string.service1d), ""));
+        services.add(new InfoObject(getString(R.string.service5a), "",
+                getString(R.string.service5b), "",
+                getString(R.string.service5c), "",
+                getString(R.string.service1d), ""));
 
         // Create an {@link InfoAdapter}, whose data source is a list of {@link Info Object}s. The
         // adapter knows how to create list items for each item in the list.

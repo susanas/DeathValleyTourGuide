@@ -27,48 +27,26 @@ public class HikesFragment extends Fragment {
 
         // Create a list of Info (objects)
         final ArrayList<InfoObject> hikes = new ArrayList<InfoObject>();
-        hikes.add(new InfoObject("Mesquite Flat Sand Dunes",
-                "- Hike through the largest dune field in the park to summit the high " +
-                        "dune in the distance.",
-                "- Easy hike.  2 mile, roundtrip on paved road.",
-                "- Distance from Furnace Creek: 21 mi",
-                "- Elevation Gain: 185 feet",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200"));
-        hikes.add(new InfoObject("Golden Canyon",
-                "- Colorful canyons carved through golden hills.",
-                "- Moderate hike.  2.7 mile, roundtrip on paved road.",
-                "- Distance from Furnace Creek: 5 mi",
-                "- Elevation Gain: 535 feet",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200"));
-        hikes.add(new InfoObject("Natural Bridge",
-                "- Hike up dramatic canyon to a natural bridge formation.",
-                "- Easy hike.  1 mile, roundtrip.",
-                "- Distance from Furnace Creek: 11 mi",
-                "- Elevation Gain: 180 feet",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200"));
-        hikes.add(new InfoObject("Badwater Salt Flats",
-                "- Scenic walk to the edge of the salt marsh and lowest point in North America.",
-                "- Easy hike.  1 mile, roundtrip.",
-                "- Distance from Furnace Creek: 17 mi",
-                "- Elevation Gain: flat",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200"));
-        hikes.add(new InfoObject("Salt Creek InterpretiveTrail",
-                "- Wooden boardwalk through salt marsh and rare pupfish habitat.  " +
-                        "Pupfish can usually be seen in the spring.",
-                "- Easy hike.  0.5 mile, roundtrip.",
-                "- Distance from Furnace Creek: 12 mi",
-                "- Elevation Gain: flat",
-                "- Open: 24 hours, no camping",
-                "- Fee: Included w/Park entrance pass",
-                "- Phone number: (760) 786-3200"));
+        hikes.add(new InfoObject(getString(R.string.hike1a), getString(R.string.hike1b),
+                getString(R.string.hike1c), getString(R.string.hike1d),
+                getString(R.string.hike1e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h)));
+        hikes.add(new InfoObject(getString(R.string.hike2a), getString(R.string.hike2b),
+                getString(R.string.hike2c), getString(R.string.hike2d),
+                getString(R.string.hike2e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h)));
+        hikes.add(new InfoObject(getString(R.string.hike3a), getString(R.string.hike3b),
+                getString(R.string.hike3c), getString(R.string.hike3d),
+                getString(R.string.hike3e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h)));
+        hikes.add(new InfoObject(getString(R.string.hike4a), getString(R.string.hike4b),
+                getString(R.string.hike3c), getString(R.string.hike4d),
+                getString(R.string.hike4e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h)));
+        hikes.add(new InfoObject(getString(R.string.hike5a), getString(R.string.hike5b),
+                getString(R.string.hike5c), getString(R.string.hike5d),
+                getString(R.string.hike4e), getString(R.string.hike1f),
+                getString(R.string.hike1g), getString(R.string.hike1h)));
 
         // Create an {@link InfoAdapter}, whose data source is a list of {@link Info Object}s. The
         // adapter knows how to create list items for each item in the list.
